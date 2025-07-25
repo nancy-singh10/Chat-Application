@@ -6,7 +6,8 @@ This is a **LAN-based real-time chat application** built using **C++**, **Winsoc
 ---
 
 ## 📸 **Project Screenshot**
-![Project Screenshot](assets/screenshot.png)  
+![Project Screenshot](Screenshot%202025-07-25%20131937.png)
+
 *(Replace with your actual image path)*
 
 ---
