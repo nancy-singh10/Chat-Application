@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\NANCY_SINGH\\source\\repos\\Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{605D6576-BC89-4219-B12B-EEF476EA7A82}|Client\\Client.vcxproj|C:\\Users\\NANCY_SINGH\\source\\repos\\Client\\Client\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{605D6576-BC89-4219-B12B-EEF476EA7A82}|Client\\Client.vcxproj|solutionrelative:Client\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\NANCY_SINGH\\source\\repos\\Client\\Client\\main.cpp",
+              "RelativeDocumentMoniker": "Client\\main.cpp",
+              "ToolTip": "C:\\Users\\NANCY_SINGH\\source\\repos\\Client\\Client\\main.cpp",
+              "RelativeToolTip": "Client\\main.cpp",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-24T17:28:35.483Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
