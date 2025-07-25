@@ -1,50 +1,49 @@
-# Real-Time Chat Application (C++ | Winsock | Multithreading)
+# **Emergency LAN Chat System**  
+*(C++ | Winsock | Multithreading)*
 
-This is a **real-time chat application** built using **C++**, **Winsock API**, and **multithreading**, supporting multiple clients connected to a server for **bidirectional communication**.
-
----
-![Project Screenshot](Screenshot%20(3).png)
-
-## ⚡ Features
-- **Real-Time Messaging** between multiple clients.
-- **Multithreaded Server**: Handles multiple clients concurrently.
-- **Client-Server Architecture** using **TCP/IP sockets**.
-- **Message Broadcasting**: Messages sent by one client are forwarded to all others.
-- **Error Handling** for stable connections and graceful client disconnection.
+This is a **LAN-based real-time chat application** built using **C++**, **Winsock API**, and **multithreading**, designed to provide **reliable communication even during internet outages**. The system supports **multiple clients connected to a server** for **bidirectional messaging** over a local network.
 
 ---
 
-## 🛠️ Tech Stack
-- **Language**: C++
-- **Networking**: Winsock API (Windows Sockets)
-- **Concurrency**: `std::thread`
-- **Protocol**: TCP/IP
+## 📸 **Project Screenshot**
+![Project Screenshot](assets/screenshot.png)  
+*(Replace with your actual image path)*
 
 ---
 
-
-
----
-
-## ▶️ How It Works
-1. **Server**:
-    - Initializes Winsock.
-    - Creates a listening socket on `port 12345`.
-    - Accepts client connections and spawns threads for each client.
-    - Forwards messages from one client to all others.
-
-2. **Client**:
-    - Connects to the server using IP (`127.0.0.1` for local testing).
-    - Sends messages with username prefix.
-    - Listens for messages from other clients using a dedicated thread.
+## ⚡ **Features**
+- ✅ Real-Time Messaging between multiple clients  
+- ✅ **Multithreaded Server** – Handles multiple clients concurrently  
+- ✅ **Client-Server Architecture** using **TCP/IP sockets**  
+- ✅ **Message Broadcasting** – One client’s message is sent to all others  
+- ✅ **Robust Error Handling** for stable connections and graceful disconnections  
 
 ---
 
-## ⚙️ Installation & Run
+## 🛠️ **Tech Stack**
+- **Language:** C++  
+- **Networking:** Winsock API (Windows Sockets)  
+- **Concurrency:** `std::thread`  
+- **Protocol:** TCP/IP  
 
-### **1. Clone the Repository**
+---
+
+## ▶️ **How It Works**
+### **Server**
+- Initializes Winsock  
+- Creates a listening socket on **port 12345**  
+- Accepts client connections and spawns **a new thread for each client**  
+- Broadcasts messages to all connected clients  
+
+### **Client**
+- Connects to server using IP (`127.0.0.1` for local testing)  
+- Sends messages with **username prefix**  
+- Listens for incoming messages in a **separate thread**  
+
+---
+
+## ⚙️ **Installation & Run**
+### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/nancy-singh10/Chat-Application.git
-cd Chat-Application
-
-## 📂 Project Structure
+git clone https://github.com/nancy-singh10/nancy-singh10-Emergency-LAN-Chat-System-.git
+cd nancy-singh10-Emergency-LAN-Chat-System-
