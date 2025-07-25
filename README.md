@@ -21,4 +21,29 @@ This is a **real-time chat application** built using **C++**, **Winsock API**, a
 
 ---
 
+![Project Screenshot](Screenshot%20(3).png)
+
+---
+
+## ▶️ How It Works
+1. **Server**:
+    - Initializes Winsock.
+    - Creates a listening socket on `port 12345`.
+    - Accepts client connections and spawns threads for each client.
+    - Forwards messages from one client to all others.
+
+2. **Client**:
+    - Connects to the server using IP (`127.0.0.1` for local testing).
+    - Sends messages with username prefix.
+    - Listens for messages from other clients using a dedicated thread.
+
+---
+
+## ⚙️ Installation & Run
+
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/nancy-singh10/Chat-Application.git
+cd Chat-Application
+
 ## 📂 Project Structure
