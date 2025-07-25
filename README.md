@@ -3,6 +3,7 @@
 This is a **real-time chat application** built using **C++**, **Winsock API**, and **multithreading**, supporting multiple clients connected to a server for **bidirectional communication**.
 
 ---
+![Project Screenshot](Screenshot%20(3).png)
 
 ## ⚡ Features
 - **Real-Time Messaging** between multiple clients.
@@ -21,7 +22,7 @@ This is a **real-time chat application** built using **C++**, **Winsock API**, a
 
 ---
 
-![Project Screenshot](Screenshot%20(3).png)
+
 
 ---
 
